@@ -17,7 +17,7 @@ abstract class Namecheap
 	 * 
 	 * @param Namecheap\Client $client
 	 */
-	public function __construct(Client $client)
+	public function __construct(\Namecheap\Api\Client $client)
 	{
 		$this->client = $client;
 	}
